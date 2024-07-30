@@ -1,0 +1,48 @@
+
+  .gauge-image {
+    width: 600px;
+  }
+
+  .guage-container {
+    text-align: center;
+    padding: 4px
+  }
+
+  .info-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .info-box {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+
+  .info-header {
+    font-size: 10px;
+    margin-bottom: 4px;
+  }
+
+  .info-value {
+    color: aqua;
+    letter-spacing: 4px;
+  }
+
+
+  @media only screen and (max-width: 600px)  {
+    .gauge-image {
+      width: 300px;
+    }
+
+    .info-container {
+      flex-wrap: wrap;
+    } 
+
+    .guage-container {
+      width: 350px;
+    }
+  }

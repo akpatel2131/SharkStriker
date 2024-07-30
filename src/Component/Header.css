@@ -1,0 +1,116 @@
+/* src/Header.css */
+
+.app-bar {
+    background-color: black;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+  }
+  
+  .company-section {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .company-name {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  .logo {
+    width: 50px; /* Adjust size as needed */
+    margin-right: 10px;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  .nav-links .MuiTypography-body1 {
+    margin-right: 15px;
+    font-size: 14px;
+    color: indianred;
+  }
+
+  .search {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  
+  .search-section {
+    display: flex;
+    align-items: center;
+    color: #fff !important;
+    border: 1px solid black;
+    border-radius: 4px;
+  }
+  
+  .search-input {
+    background: #333;
+    border: none;
+    padding: 5px 10px;
+    color: #fff;
+    outline: none;
+    width: 600px;
+    margin-right: 5px;
+  }
+  
+  .search-button .MuiSvgIcon-root {
+    color: #fff;
+  }
+  
+  .header-options {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-select {
+    margin: 0 10px;
+    min-width: 120px;
+    color: #fff !important;
+    .MuiSelect-icon {
+      color: #fff !important;
+    }
+  }
+  
+  .icon-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-buttons .MuiIconButton-root {
+    color: #fff;
+    margin-left: 10px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .header, .company-section, .search {
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .search-input {
+      width: 250px;
+    }
+
+    .nav-links, .header-options  {
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+    }
+  }
+  

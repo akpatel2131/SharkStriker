@@ -1,0 +1,108 @@
+.suspect-assets-container {
+    background-color: #1e2d3b;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin-top: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .title {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+  
+  .title h3 {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .select-option {
+    height: 40px;
+  }
+  
+  .chart-container {
+    height: 300px; /* Adjust as needed */
+    margin-bottom: 20px;
+  }
+  
+  .asset-list {
+    overflow-y: auto;
+    max-height: 200px; /* Adjust as needed */
+  }
+  
+  .asset-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+  }
+  
+  .risk-score {
+    color: #f00;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .asset-details {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .asset-ip {
+    font-size: 16px;
+  }
+  
+  .btn-panorama {
+    background-color: #445d77;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .btn-panorama:hover {
+    background-color: #667a8c;
+  }
+  
+  .expand-icon {
+    cursor: pointer;
+    color: #ccc;
+  }
+  
+  .asset-more-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 24px; /* Adjust padding as needed */
+    font-size: 14px;
+    color: #aaa;
+  }
+
+  .img {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+
+  .expand-info {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    overflow: scroll;
+  }
+  

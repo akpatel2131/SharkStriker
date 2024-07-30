@@ -1,0 +1,108 @@
+/* src/SecurityEventsPage.css */
+
+.security-events-page {
+    background-color: #0f1b2b;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 350px;
+  }
+  
+  .header-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 20px;
+  }
+  
+  .header-title {
+    color: #fff;
+  }
+  
+  .top-events-select {
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 10px;
+    height: 40px;
+  }
+  
+  .security-chart {
+    height: 300px;
+  }
+  
+  .details-section {
+    background-color: #1e2a38;
+    border-radius: 5px;
+    padding: 20px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .details-title {
+    display: flex;
+    align-items: center;
+  }
+  
+  .score-box {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    min-width: 500px;
+    gap: 20px;
+  }
+  
+  .collapse-switch {
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  .divider {
+    background-color: #333;
+    margin: 10px 0;
+    width: 500px;
+  }
+  
+  .details-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    min-width: 500px;
+  }
+  
+  .details-column {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  .details-column .MuiTypography-body2 {
+    margin-bottom: 10px;
+  }
+
+  .info {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+  }
+
+  .label {
+    font-size: 16px;
+  }
+
+  .value {
+    align-self: flex-end;
+    font-size: 12px;
+  }
+  
